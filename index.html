@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  adding tailwindCSS CDN to the PAge -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- link to local stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>REMINE INDIA</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <!-- Main navigation container -->
+    <nav class="relative flex w-full flex-nowrap items-center justify-between bg-neutral-100 py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:flex-wrap lg:justify-start lg:py-4"
+        data-te-navbar-ref>
+        <div class="flex w-full flex-wrap items-center justify-between px-3">
+            <!-- Hamburger button for mobile view -->
+            <button
+                class="block border-0 bg-transparent px-2 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+                type="button" data-te-collapse-init data-te-target="#navbarSupportedContent3"
+                aria-controls="navbarSupportedContent3" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Hamburger icon -->
+                <span class="[&>svg]:w-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7">
+                        <path fill-rule="evenodd"
+                            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </span>
+            </button>
+
+            <!-- Collapsible navbar container -->
+            <div class="!visible mt-2 hidden flex-grow basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
+                id="navbarSupportedContent3" data-te-collapse-item>
+                <!-- Navbar title -->
+                <a class="pr-2 text-xl text-black dark:text-neutral-200" href="#">REMINE INDIA</a>
+                <!-- Left links -->
+                <ul class="list-style-none mr-auto flex flex-col pl-0 lg:flex-row" data-te-navbar-nav-ref>
+                    <!-- Home link -->
+                    <li class="my-4 lg:my-0 lg:pr-2" data-te-nav-item-ref>
+                        <a class="active disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                            aria-current="page" href="#" data-te-nav-link-ref>Home</a>
+                    </li>
+                    <li class="my-4 lg:my-0 lg:pr-2" data-te-nav-item-ref>
+                        <a class="active disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                            aria-current="page" href="#" data-te-nav-link-ref>Vision</a>
+                    </li>
+                    <!-- Features link -->
+                    <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+                        <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                            href="#" data-te-nav-link-ref>Features</a>
+                    </li>
+
+                    <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+                        <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                            href="#" data-te-nav-link-ref>Future Aspirations</a>
+                    </li>
+                    <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+                        <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                            href="#" data-te-nav-link-ref>Our Product</a>
+                    </li>
+                    <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+                        <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                            href="#" data-te-nav-link-ref>Our Team</a>
+                    </li>
+                    <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+                        <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                            href="#" data-te-nav-link-ref>Our Team</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero section  -->
+    <section>
+        <div class="bg-black text-white py-5">
+            <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-5">
+                <div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-4">
+                    <h1 class="text-3xl md:text-5xl p-2 text-yellow-300 tracking-loose">Recycle and Save Future</h1>
+                    <h2 class="text-3xl md:text-2xl leading-relaxed md:leading-snug mb-2">Recycling e-waste and li ion
+                        Battery
+                    </h2>
+                    <p class="text-sm md:text-sm text-gray-50 mb-4">Storing energy in lithium-ion batteries offers a
+                        set of advantages that can help us achieve sustainability goals
+                        considering energy use: for instance, allowing us to ease our reliance on fossil fuels in favor
+                        of renewable energy
+                        resources and lithium-ion batteries. <br> However, with these advantages come a set of drawbacks
+                        throughout the battery’s
+                        supply chain. Stored energy as with battery systems can be beneficial in the case of disasters
+                        that threaten the power
+                        supply. <br>
+                        Having reserved energy in portable containers helps us to be resilient: able to recover from
+                        unfortunate circumstances
+                        such as natural disasters.Lithium-ion batteries have a long service life and can be recharged
+                        thousands of times. <br>
+                        While recycling of lithium-ion batteries is not yet optimized, long-term use of batteries and
+                        products can result in
+                        reduced consumption and electronic waste.</p>
+                </div>
+                <div class="p-6 mt-1 mb-10 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  " id="hero">
+                    <div class="h-24 flex flex-wrap content-center">
+                        <img class="inline-block mt-10 hidden xl:block" src="./images/image1.jpg" id="image-hero">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Statistics card-->
+    <!-- component -->
+    <div class="grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4">
+        <div class="min-w-0 rounded-lg shadow-xs overflow-hidden bg-white dark:bg-gray-800">
+            <div class="p-4 flex items-center">
+                <div
+                    class="p-3 rounded-full text-orange-500 dark:text-orange-100 bg-orange-100 dark:bg-orange-500 mr-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd"
+                            d="M2.25 2.25a.75.75 0 000 1.5H3v10.5a3 3 0 003 3h1.21l-1.172 3.513a.75.75 0 001.424.474l.329-.987h8.418l.33.987a.75.75 0 001.422-.474l-1.17-3.513H18a3 3 0 003-3V3.75h.75a.75.75 0 000-1.5H2.25zm6.54 15h6.42l.5 1.5H8.29l.5-1.5zm8.085-8.995a.75.75 0 10-.75-1.299 12.81 12.81 0 00-3.558 3.05L11.03 8.47a.75.75 0 00-1.06 0l-3 3a.75.75 0 101.06 1.06l2.47-2.47 1.617 1.618a.75.75 0 001.146-.102 11.312 11.312 0 013.612-3.321z"
+                            clip-rule="evenodd" />
+                    </svg>
+
+                </div>
+                <div>
+                    <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
+                    <p class="text-muted">Generated in 2021</p>
+
+                    </p>
+                    <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
+                    <p class="h5">57.4<span class="ps-1">K mt</span></p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="min-w-0 rounded-lg shadow-xs overflow-hidden bg-white dark:bg-gray-800">
+            <div class="p-4 flex items-center">
+                <div class="p-3 rounded-full text-green-500 dark:text-green-100 bg-green-100 dark:bg-green-500 mr-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd"
+                            d="M2.25 2.25a.75.75 0 000 1.5H3v10.5a3 3 0 003 3h1.21l-1.172 3.513a.75.75 0 001.424.474l.329-.987h8.418l.33.987a.75.75 0 001.422-.474l-1.17-3.513H18a3 3 0 003-3V3.75h.75a.75.75 0 000-1.5H2.25zm6.54 15h6.42l.5 1.5H8.29l.5-1.5zm8.085-8.995a.75.75 0 10-.75-1.299 12.81 12.81 0 00-3.558 3.05L11.03 8.47a.75.75 0 00-1.06 0l-3 3a.75.75 0 101.06 1.06l2.47-2.47 1.617 1.618a.75.75 0 001.146-.102 11.312 11.312 0 013.612-3.321z"
+                            clip-rule="evenodd" />
+                    </svg>
+
+                </div>
+                <div>
+                    <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
+                        Gain per Year
+                    </p>
+                    <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
+                        2 Mt/year
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="min-w-0 rounded-lg shadow-xs overflow-hidden bg-white dark:bg-gray-800">
+            <div class="p-4 flex items-center">
+                <div class="p-3 rounded-full text-blue-500 dark:text-blue-100 bg-blue-100 dark:bg-blue-500 mr-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd"
+                            d="M2.25 2.25a.75.75 0 000 1.5H3v10.5a3 3 0 003 3h1.21l-1.172 3.513a.75.75 0 001.424.474l.329-.987h8.418l.33.987a.75.75 0 001.422-.474l-1.17-3.513H18a3 3 0 003-3V3.75h.75a.75.75 0 000-1.5H2.25zm6.54 15h6.42l.5 1.5H8.29l.5-1.5zm8.085-8.995a.75.75 0 10-.75-1.299 12.81 12.81 0 00-3.558 3.05L11.03 8.47a.75.75 0 00-1.06 0l-3 3a.75.75 0 101.06 1.06l2.47-2.47 1.617 1.618a.75.75 0 001.146-.102 11.312 11.312 0 013.612-3.321z"
+                            clip-rule="evenodd" />
+                    </svg>
+
+                </div>
+                <div>
+                    <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
+                        Waste Remaining 
+                    </p>
+                    <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
+                        347 Mt
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="min-w-0 rounded-lg shadow-xs overflow-hidden bg-white dark:bg-gray-800">
+            <div class="p-4 flex items-center">
+                <div class="p-3 rounded-full text-teal-500 dark:text-teal-100 bg-teal-100 dark:bg-teal-500 mr-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd"
+                            d="M2.25 2.25a.75.75 0 000 1.5H3v10.5a3 3 0 003 3h1.21l-1.172 3.513a.75.75 0 001.424.474l.329-.987h8.418l.33.987a.75.75 0 001.422-.474l-1.17-3.513H18a3 3 0 003-3V3.75h.75a.75.75 0 000-1.5H2.25zm6.54 15h6.42l.5 1.5H8.29l.5-1.5zm8.085-8.995a.75.75 0 10-.75-1.299 12.81 12.81 0 00-3.558 3.05L11.03 8.47a.75.75 0 00-1.06 0l-3 3a.75.75 0 101.06 1.06l2.47-2.47 1.617 1.618a.75.75 0 001.146-.102 11.312 11.312 0 013.612-3.321z"
+                            clip-rule="evenodd" />
+                    </svg>
+
+                </div>
+                <div>
+                    <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
+                        Projected Growth till 2030
+                    </p>
+                    <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">74.7 Mt</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
