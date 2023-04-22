@@ -12,3 +12,4 @@ statistics in the page taken from:
 https://www.statista.com/topics/3409/electronic-waste-worldwide/
 
 https://theroundup.org/global-e-waste-statistics/
+
